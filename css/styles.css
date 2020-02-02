@@ -190,7 +190,6 @@ a.dropdown-item:active {
 .main-content-item-text {
   grid-row: 2 / span 2;
   padding: 0 10px 5px 15px;
-  font-size: 1.5em;
 }
 
 .wrapper-home {
