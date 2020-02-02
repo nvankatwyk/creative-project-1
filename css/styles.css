@@ -181,14 +181,16 @@ a.dropdown-item:active {
 
 .main-content-item-header {
   grid-row: 1;
-  font-size: 1.5em;
-  align-self: center;
+  font-size: 2em;
   padding-left: 5px;
+  padding: 20px;
+  padding-top: 30px;
 }
 
 .main-content-item-text {
   grid-row: 2 / span 2;
-  padding-left: 5px;
+  padding: 0 10px 5px 15px;
+  font-size: 1.5em;
 }
 
 .wrapper-home {
@@ -224,12 +226,19 @@ a.dropdown-item:active {
 }
 
 .home-header {
-  font-size: 1.5em;
-  padding-left: 5px;
+  font-size: 2em;
+  padding: 5px;
+  padding-top: 10px;
 }
 
 .home-text {
   grid-row: 2 / span 2;
+  padding: 0 30px 0 30px;
+  font-size: 1.25em;
+}
+
+.home-text>ul>li>a{
+  color: black;
 }
 
 .reverse-home-photo {
