@@ -211,7 +211,7 @@ a.dropdown-item:active {
 
 .home-photo {
   grid-column: 1;
-  margin: 2px;
+  padding: 10px;
   display: grid;
   justify-content: center;
   align-items: center;
